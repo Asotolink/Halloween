@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'FuenteHalloweeen';
+    src: url('../fonts/October\ Crow.woff2') format('woff2'),
+         url('../fonts/October\ Crow.woff') format('woff'),
+         url('../fonts/October\ Crow.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'FuenteHalloweeen2';
+    src: url('../fonts/Scary\ Halloween\ Font.woff2') format('woff2'),
+         url('../fonts/Scary\ Halloween\ Font.woff') format('woff'),
+         url('../fonts/Scary\ Halloween\ Font.ttf')  format('truetype');
+  }
+
+body{
+    max-width: 390px;
+    background-color: black;
+}
+
+
+
+.container{
+    background-color: #E54816;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+header{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+
+}
+
+h1{
+    font-family: 'FuenteHalloweeen2';
+}
+
+h2, h3{
+    font-family: 'FuenteHalloweeen';
+}
+
+.registro{
+    font-family: 'FuenteHalloweeen2';
+}
+.leerMas{
+    width: 113px;
+    height: 48px;
+    background-color: #7E3620;
+    align-self: center;
+    border: none;
+}
+
+
+.fotosMedio{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.imagen{
+    margin: 0 auto;
+    width: 255px;
+    height: 127px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.uno{
+    background-image: url(../img/foto1@2x.webp);
+}
+
+.dos{
+    background-image: url(../img/foto2@2x.webp);
+}
+.tres{
+    background-image: url(../img/foto3@2x.webp);
+}
+
+
+.fotosCaras{
+    background-color: #C2BFBF;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+figcaption{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.imagenCaras{
+    margin: 0 auto;
+    width: 204px;
+    height: 204px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.cuatro{
+    background-image: url(../img/foto4R@2x.webp);
+}
+
+.cinco{
+    background-image: url(../img/foto5R@2x.webp);
+}
+
+.masInfo{
+    width: 117px;
+    height: 63px;
+    background-color: #111111;
+    color: #D9D9D9;
+    padding: 15px;
+    border: none;
+}
+
+.formulario{
+    background-color: #E54816;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    background-color: #C2BFBF;
+    width: 260px;
+    height: 48px;
+    padding-left: 20px;
+}
+
+.btn2{
+    margin: 30px auto;
+    width: 112px;
+    height: 63px;
+    background-color: #111111;
+    color: #C2BFBF;
+    border: none;
+}
+
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+}
+
+.separacion{
+    width: 191px;
+    margin: 10px auto;
+}
+
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h5{
+    margin-bottom: 0;
+}
+
